@@ -1,0 +1,59 @@
+  *{
+    box-sizing: content-box;
+}
+body{
+    background-image: url("./img/6-61915_grey-high-resolution-background.jpg");
+    text-align: center;
+}
+body, header, footer{
+    display: block;
+}
+header, footer {
+    background-color: brown;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    box-sizing: border-box;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+}
+
+
+h1{
+    font-size: xx-large;
+}
+.container{
+    width: 90%;
+    height: 80%;
+    display:inline-flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.container div{
+    margin: 10px;
+    padding: 10px;
+    width: 24%;
+    flex-basis: content;
+    background-color:black;
+    text-align: center;
+    color: orange;
+}
+.container img{
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+}
+
+header h1{
+    text-align: center;
+}
+
+
